@@ -35,6 +35,19 @@ const config: Config = {
   i18n: {
     defaultLocale: "ko",
     locales: ["ko", "en"],
+    path: "i18n",
+    localeConfigs: {
+      ko: {
+        label: "한국어",
+        direction: "ltr",
+        htmlLang: "ko",
+      },
+      en: {
+        label: "English",
+        direction: "ltr",
+        htmlLang: "en",
+      },
+    },
   },
 
   /**
@@ -97,6 +110,7 @@ const config: Config = {
           label: "Tutorial",
         },
         { to: "/blog", label: "Blog", position: "left" },
+        { type: "localeDropdown", position: "right" },
         {
           href: "https://github.com/aidinrobotics",
           label: "GitHub",
