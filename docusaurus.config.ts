@@ -2,48 +2,58 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  /**
+   * 메타데이터
+   */
+  title: "AIDIN ROBOTICS Documentation",
+  tagline: "One-stop Robotic Solution for Safe Collaboration",
   favicon: "img/favicon.ico",
-
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
-
-  // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: "https://aidinrobotics.github.io",
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  /**
+   * GitHub Pages 배포 설정
+   */
+  // 사용자 또는 조직 이름
+  organizationName: "aidinrobotics",
+  // 저장소 이름
+  projectName: "aidinrobotics.github.io",
+  // 배포 브랜치명
+  deploymentBranch: "main",
+  // URL 끝 슬래시 여부
+  trailingSlash: false,
 
+  /**
+   * 링크 깨짐 처리 설정
+   */
   onBrokenLinks: "throw",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  /**
+   * 국제화(Internationalization) 설정
+   */
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "ko",
+    locales: ["ko", "en"],
   },
 
+  /**
+   * 신규 버전 기능 설정
+   */
+  future: {
+    v4: true,
+  },
+
+  /**
+   * 기능 설정
+   */
   presets: [
     [
       "classic",
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/aidinrobotics/aidinrobotics.github.io/",
         },
         blog: {
           showReadingTime: true,
@@ -51,10 +61,7 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          // Useful options to enforce blogging best practices
+          editUrl: "https://github.com/aidinrobotics/aidinrobotics.github.io/",
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
@@ -66,16 +73,20 @@ const config: Config = {
     ],
   ],
 
+  /**
+   * 테마 설정
+   */
   themeConfig: {
-    // Replace with your project's social card
+    // 소셜 미디어 공유 미리보기 이미지
     image: "img/docusaurus-social-card.jpg",
     colorMode: {
+      // 사용자 시스템 설정 반영 여부
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "My Site",
+      title: "AIDIN ROBOTICS",
       logo: {
-        alt: "My Site Logo",
+        alt: "AIDIN ROBOTICS Logo",
         src: "img/logo.svg",
       },
       items: [
@@ -87,7 +98,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/aidinrobotics",
           label: "GitHub",
           position: "right",
         },
@@ -109,16 +120,20 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "YouTube",
+              href: "https://www.youtube.com/@AIDINROBOTICS",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/company/aidin-robotics",
             },
             {
-              label: "X",
-              href: "https://x.com/docusaurus",
+              label: "Facebook",
+              href: "https://www.facebook.com/aidinrobotics",
+            },
+            {
+              label: "Instagram",
+              href: "https://www.instagram.com/aidinrobotics",
             },
           ],
         },
@@ -131,16 +146,17 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/aidinrobotics",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} AIDIN ROBOTICS Inc.`,
     },
+    // 코드 블록 스타일
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      darkTheme: prismThemes.oneDark,
     },
   } satisfies Preset.ThemeConfig,
 };
