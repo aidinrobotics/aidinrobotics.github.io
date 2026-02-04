@@ -28,3 +28,18 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* GitHub icon in navbar */
+.navbar-github-link::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: flex;
+  background: url("/img/github-black.svg") no-repeat center;
+  background-size: 20px 20px;
+}
+
+[data-theme="dark"] .navbar-github-link::before {
+  background: url("/img/github-white.svg") no-repeat center;
+  background-size: 20px 20px;
+}

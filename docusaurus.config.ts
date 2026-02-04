@@ -113,8 +113,9 @@ const config: Config = {
         { type: "localeDropdown", position: "right" },
         {
           href: "https://github.com/aidinrobotics",
-          label: "GitHub",
           position: "right",
+          className: "navbar-github-link",
+          "aria-label": "GitHub repository",
         },
       ],
     },
