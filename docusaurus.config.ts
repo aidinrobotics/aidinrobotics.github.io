@@ -109,10 +109,10 @@ const config: Config = {
         {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
+          label: "설명서",
           position: "left",
-          label: "Tutorial",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/blog", label: "블로그", position: "left" },
         { type: "localeDropdown", position: "right" },
         {
           href: "https://github.com/aidinrobotics",
