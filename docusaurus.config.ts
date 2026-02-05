@@ -113,6 +113,7 @@ const config: Config = {
           position: "left",
         },
         { to: "/blog", label: "블로그", position: "left" },
+        { href: "https://www.aidinrobotics.co.kr/contact", label: "문의하기", position: "left" },
         { type: "localeDropdown", position: "right" },
         {
           href: "https://github.com/aidinrobotics",
