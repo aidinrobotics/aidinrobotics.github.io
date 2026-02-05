@@ -97,10 +97,13 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "AIDIN ROBOTICS",
+      title: "기술지원",
       logo: {
         alt: "AIDIN ROBOTICS Logo",
-        src: "img/logo.svg",
+        src: "img/logo-black.svg",
+        srcDark: "img/logo-white.svg",
+        href: "/",
+        className: "navbar-logo",
       },
       items: [
         {

@@ -29,6 +29,18 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* 기본 스타일 덮어쓰기 */
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar logo */
+.navbar-logo {
+  width: auto;
+  height: 14px;
+}
+
 /* GitHub icon in navbar */
 .navbar-github-link::before {
   content: "";
