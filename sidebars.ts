@@ -39,6 +39,35 @@ const sidebars: SidebarsConfig = {
       items: ["troubleshooting/error-codes"],
     },
   ],
+
+  // API 문서
+  apiSidebar: [
+    {
+      type: "doc",
+      id: "api/intro",
+      label: "API 개요",
+    },
+    {
+      type: "category",
+      label: "REST API",
+      items: ["api/rest-api/overview", "api/rest-api/robots"],
+    },
+    {
+      type: "category",
+      label: "MQTT API",
+      items: ["api/mqtt-api/overview"],
+    },
+    {
+      type: "doc",
+      id: "api/error-codes",
+      label: "오류 코드",
+    },
+    {
+      type: "doc",
+      id: "api/versioning",
+      label: "API 버전 정책",
+    },
+  ],
 };
 
 export default sidebars;

@@ -112,6 +112,12 @@ const config: Config = {
           label: "설명서",
           position: "left",
         },
+        {
+          type: "docSidebar",
+          sidebarId: "apiSidebar",
+          label: "API",
+          position: "left",
+        },
         { to: "/blog", label: "블로그", position: "left" },
         { href: "https://www.aidinrobotics.co.kr/contact", label: "문의하기", position: "left" },
         { type: "localeDropdown", position: "right" },

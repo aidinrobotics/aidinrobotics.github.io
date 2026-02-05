@@ -1,0 +1,29 @@
+# 로봇 API
+
+로봇의 정보 조회, 제어 및 관리를 위한 API입니다.
+
+## 로봇 정보 조회
+
+로봇 정보를 조회합니다.
+
+```http
+GET {robot-host}/api/v1/robot
+```
+
+### 경로 파라미터
+
+| 파라미터     | 타입   | 필수 | 설명          |
+| ------------ | ------ | ---- | ------------- |
+| `robot-host` | string | 예   | 로봇 호스트명 |
+
+### 응답 예제
+
+```json
+{
+  "success": true,
+  "data": {
+    "serialNumber": "f61f44dc-c822-4c20-a4ed-1e0d27856ddb",
+    "name": "aidin-f61f44dc"
+  }
+}
+```
