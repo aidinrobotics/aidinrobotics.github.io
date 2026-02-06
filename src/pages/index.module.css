@@ -19,10 +19,10 @@
 .heroInner {
   max-width: 1120px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 3rem;
-  align-items: center;
 }
 
 .heroCopy {
@@ -193,7 +193,7 @@
   }
 
   .heroInner {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
 
   .linkGrid {
