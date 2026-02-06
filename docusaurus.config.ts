@@ -90,8 +90,8 @@ const config: Config = {
    * 테마 설정
    */
   themeConfig: {
-    // 소셜 미디어 공유 미리보기 이미지
-    image: "img/docusaurus-social-card.jpg",
+    // 소셜 미디어 공유 미리보기 이미지 (Open Graph)
+    image: "img/aidinrobotics-og.jpg",
     colorMode: {
       // 사용자 시스템 설정 반영 여부
       respectPrefersColorScheme: true,
