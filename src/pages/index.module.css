@@ -1,0 +1,202 @@
+.page {
+  background:
+    radial-gradient(circle at 10% 10%, color-mix(in srgb, var(--ifm-color-primary) 3%, transparent), transparent 45%),
+    radial-gradient(
+      circle at 80% 0%,
+      color-mix(in srgb, var(--ifm-color-primary-dark) 12%, transparent),
+      transparent 40%
+    ),
+    linear-gradient(180deg, color-mix(in srgb, var(--ifm-color-primary-lightest) 5%, #ffffff), #ffffff);
+  color: #0d1f16;
+}
+
+.hero {
+  padding: 6.5rem 1.5rem 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroInner {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 3rem;
+  align-items: center;
+}
+
+.heroCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.heroTitle {
+  font-size: clamp(2.6rem, 3.5vw, 3.8rem);
+  line-height: 1.05;
+  font-weight: 700;
+  margin: 0;
+}
+
+.heroAccent {
+  color: var(--ifm-color-primary-dark);
+}
+
+.heroSubtitle {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: rgba(13, 31, 22, 0.65);
+  margin: 0;
+  max-width: 34rem;
+}
+
+.heroCtas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.primaryCta,
+.secondaryCta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+  text-decoration: none;
+}
+
+.primaryCta {
+  background: var(--ifm-color-primary);
+  color: #ffffff;
+  box-shadow: 0 16px 32px -18px rgba(13, 31, 22, 0.6);
+}
+
+.primaryCta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px -18px rgba(13, 31, 22, 0.55);
+  color: #ffffff;
+}
+
+.secondaryCta {
+  background: color-mix(in srgb, var(--ifm-color-primary) 10%, transparent);
+  color: var(--ifm-color-primary-dark);
+}
+
+.secondaryCta:hover {
+  transform: translateY(-2px);
+  background: color-mix(in srgb, var(--ifm-color-primary) 16%, transparent);
+  color: var(--ifm-color-primary-darkest);
+}
+
+.linksSection {
+  padding: 1.5rem 1.5rem 5rem;
+}
+
+.sectionHeader {
+  max-width: 1120px;
+  margin: 0 auto 2.5rem;
+  text-align: left;
+}
+
+.sectionTitle {
+  font-size: clamp(1.8rem, 2.5vw, 2.4rem);
+  margin-bottom: 0.8rem;
+}
+
+.linkGrid {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.linkCard {
+  position: relative;
+  padding: 1.8rem 1.6rem;
+  border-radius: 20px;
+  background: var(--ifm-navbar-background-color);
+  border: 1px solid rgba(13, 31, 22, 0.08);
+  box-shadow: 0 10px 32px -30px rgba(13, 31, 22, 0.7);
+  display: grid;
+  gap: 0.9rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border 0.1s ease;
+}
+
+.linkCard:hover {
+  border: 1px solid color-mix(in srgb, var(--ifm-color-primary) 30%, transparent);
+  color: inherit;
+}
+
+.linkTitle {
+  margin: 0 0 0.25rem;
+  font-size: 1.2rem;
+}
+
+.linkDescription {
+  margin: 0;
+  color: rgba(13, 31, 22, 0.6);
+  line-height: 1.5;
+}
+
+[data-theme="dark"] .page {
+  background:
+    radial-gradient(circle at 10% 10%, color-mix(in srgb, var(--ifm-color-primary) 12%, transparent), transparent 45%),
+    radial-gradient(
+      circle at 80% 0%,
+      color-mix(in srgb, var(--ifm-color-primary-light) 16%, transparent),
+      transparent 40%
+    ),
+    linear-gradient(180deg, var(--ifm-background-color), var(--ifm-background-color));
+  color: rgba(244, 248, 250, 0.92);
+}
+
+[data-theme="dark"] .heroSubtitle {
+  color: rgba(244, 248, 250, 0.68);
+}
+
+[data-theme="dark"] .secondaryCta {
+  background: color-mix(in srgb, var(--ifm-color-primary-light) 16%, transparent);
+  color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme="dark"] .secondaryCta:hover {
+  background: color-mix(in srgb, var(--ifm-color-primary-light) 24%, transparent);
+  color: #ffffff;
+}
+
+[data-theme="dark"] .linkCard {
+  background: var(--ifm-navbar-background-color);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: none;
+}
+
+[data-theme="dark"] .linkCard:hover {
+  border: 1px solid color-mix(in srgb, var(--ifm-color-primary-light) 36%, transparent);
+}
+
+[data-theme="dark"] .linkDescription {
+  color: rgba(244, 248, 250, 0.6);
+}
+
+@media screen and (max-width: 996px) {
+  .hero {
+    padding: 4.5rem 1.25rem 3rem;
+  }
+
+  .heroInner {
+    grid-template-columns: 1fr;
+  }
+
+  .linkGrid {
+    grid-template-columns: 1fr;
+  }
+}
