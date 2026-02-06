@@ -8,7 +8,7 @@ const config: Config = {
    */
   title: "AIDIN ROBOTICS Documentation",
   tagline: "One-stop Robotic Solution for Safe Collaboration",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.svg",
   url: "https://aidinrobotics.github.io",
   baseUrl: "/",
 
