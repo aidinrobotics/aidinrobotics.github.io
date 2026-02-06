@@ -108,14 +108,26 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "manualSidebar",
-          label: "설명서",
+          sidebarId: "sensors",
+          label: "센서",
           position: "left",
         },
         {
           type: "docSidebar",
-          sidebarId: "apiSidebar",
-          label: "API",
+          sidebarId: "aidin",
+          label: "AIDIN",
+          position: "left",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "hand",
+          label: "로봇핸드",
+          position: "left",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "arc",
+          label: "모션제어기",
           position: "left",
         },
         { to: "/blog", label: "블로그", position: "left" },
