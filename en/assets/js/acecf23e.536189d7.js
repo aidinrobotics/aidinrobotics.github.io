@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkaidinrobotics=globalThis.webpackChunkaidinrobotics||[]).push([[903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/en/blog","blogTitle":"Blog","authorsListPath":"/en/blog/authors"}')}}]);

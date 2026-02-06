@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkaidinrobotics=globalThis.webpackChunkaidinrobotics||[]).push([[472],{5513(t){t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\uae30\uc220\uc9c0\uc6d0 \uc18c\uac1c","permalink":"/blog/tech-support-intro","unlisted":false,"date":"2026-02-06T00:00:00.000Z"}]}')}}]);

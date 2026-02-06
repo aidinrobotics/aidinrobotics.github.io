@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>AIDIN ROBOTICS Documentation Blog</title>
+        <link>https://aidinrobotics.github.io/en/blog</link>
+        <description>AIDIN ROBOTICS Documentation Blog</description>
+        <lastBuildDate>Fri, 06 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[기술지원 소개]]></title>
+            <link>https://aidinrobotics.github.io/en/blog/tech-support-intro</link>
+            <guid>https://aidinrobotics.github.io/en/blog/tech-support-intro</guid>
+            <pubDate>Fri, 06 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[기술지원 이미지]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="기술지원 이미지" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MzAiIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0U2RjZGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNFQUY5RjIiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImFjY2VudCIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNEJCNkQ5Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNCRDdCMyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CgogIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgcng9IjM2IiBmaWxsPSJ1cmwoI2JnKSIvPgoKICA8Y2lyY2xlIGN4PSIyMDAiIGN5PSIxMjAiIHI9IjEyMCIgZmlsbD0iI0Q4RjFGRiIvPgogIDxjaXJjbGUgY3g9IjEwMjAiIGN5PSI1MjAiIHI9IjE0MCIgZmlsbD0iI0RERjhFRSIvPgoKICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMTAgMTQwKSI+CiAgICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNTgwIiBoZWlnaHQ9IjM1MCIgcng9IjI4IiBmaWxsPSIjRkZGRkZGIiBzdHJva2U9IiNENkVFRjUiIHN0cm9rZS13aWR0aD0iNCIvPgoKICAgIDxyZWN0IHg9IjQwIiB5PSI1MCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSIxNjAiIHJ4PSIyMCIgZmlsbD0iI0YyRkJGRiIvPgogICAgPHJlY3QgeD0iNjAiIHk9IjcwIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjEyMCIgcng9IjE2IiBmaWxsPSIjRTJGNkZGIi8+CiAgICA8Y2lyY2xlIGN4PSIxMTAiIGN5PSIxMzAiIHI9IjE0IiBmaWxsPSIjNEJCNkQ5Ii8+CiAgICA8Y2lyY2xlIGN4PSIxOTAiIGN5PSIxMzAiIHI9IjE0IiBmaWxsPSIjM0JEN0IzIi8+CiAgICA8cmVjdCB4PSI5MCIgeT0iMTYwIiB3aWR0aD0iMTIwIiBoZWlnaHQ9IjE2IiByeD0iOCIgZmlsbD0iI0I3RUFGMiIvPgoKICAgIDxyZWN0IHg9IjMwMCIgeT0iNTAiIHdpZHRoPSIyNDAiIGhlaWdodD0iNTYiIHJ4PSIxNCIgZmlsbD0iI0Y0RkJGNyIvPgogICAgPHJlY3QgeD0iMzAwIiB5PSIxMjQiIHdpZHRoPSIyNDAiIGhlaWdodD0iNTYiIHJ4PSIxNCIgZmlsbD0iI0Y0RkJGNyIvPgogICAgPHJlY3QgeD0iMzAwIiB5PSIxOTgiIHdpZHRoPSIyNDAiIGhlaWdodD0iNTYiIHJ4PSIxNCIgZmlsbD0iI0Y0RkJGNyIvPgogICAgPHJlY3QgeD0iMzIwIiB5PSI3MCIgd2lkdGg9IjE0MCIgaGVpZ2h0PSIxNiIgcng9IjgiIGZpbGw9IiNDREVGRTYiLz4KICAgIDxyZWN0IHg9IjMyMCIgeT0iMTQ0IiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2IiByeD0iOCIgZmlsbD0iI0NERUZFNiIvPgogICAgPHJlY3QgeD0iMzIwIiB5PSIyMTgiIHdpZHRoPSIxMjAiIGhlaWdodD0iMTYiIHJ4PSI4IiBmaWxsPSIjQ0RFRkU2Ii8+CgogICAgPGNpcmNsZSBjeD0iNDIwIiBjeT0iMjg1IiByPSI1MCIgZmlsbD0idXJsKCNhY2NlbnQpIiBvcGFjaXR5PSIwLjE1Ii8+CiAgICA8cGF0aCBkPSJNNDIwIDI1NWMxOCAwIDM0IDEyIDM0IDMwIDAgMjAtMTYgMzQtMzQgMzRzLTM0LTE0LTM0LTM0YzAtMTggMTYtMzAgMzQtMzB6IiBmaWxsPSJ1cmwoI2FjY2VudCkiLz4KICAgIDxwYXRoIGQ9Ik00MTAgMzAwaDIwIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICA8cGF0aCBkPSJNNDIwIDI5MHYyMCIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDwvZz4KCiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTIwIDQyMCkiPgogICAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSIxMDAiIHJ4PSIyMCIgZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjRDZFRUY1IiBzdHJva2Utd2lkdGg9IjQiLz4KICAgIDxyZWN0IHg9IjIwIiB5PSIyMiIgd2lkdGg9IjYwIiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9IiNFOUY4RkYiLz4KICAgIDxyZWN0IHg9IjEwMCIgeT0iMzAiIHdpZHRoPSI5MCIgaGVpZ2h0PSIxNCIgcng9IjciIGZpbGw9IiNDREVGRTYiLz4KICAgIDxyZWN0IHg9IjEwMCIgeT0iNTQiIHdpZHRoPSI3MCIgaGVpZ2h0PSIxNCIgcng9IjciIGZpbGw9IiNDREVGRTYiLz4KICA8L2c+Cjwvc3ZnPgo=" width="1200" height="630" class="img_ev3q"></p>
+<p>에이딘로보틱스 기술지원 사이트는 로봇 사용에 대한 설명서와 API 문서, 문제 해결, 그리고 업데이트 정보를 제공합니다.</p>
+<!-- -->
+<p>필요한 정보를 빠르게 찾고, 현장에서 바로 활용할 수 있도록 간결한 절차와 예시를 중심으로 구성했습니다.</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
