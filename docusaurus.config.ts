@@ -20,7 +20,7 @@ const config: Config = {
   // 저장소 이름
   projectName: "aidinrobotics.github.io",
   // 배포 브랜치명
-  deploymentBranch: "main",
+  deploymentBranch: "gh-pages",
   // URL 끝 슬래시 여부
   trailingSlash: false,
 
