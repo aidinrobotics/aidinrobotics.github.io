@@ -145,16 +145,28 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "설명서",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "센서",
+              to: "/docs/sensors/intro",
+            },
+            {
+              label: "AIDIN",
+              to: "/docs/aidin/intro",
+            },
+            {
+              label: "로봇핸드",
+              to: "/docs/hand/intro",
+            },
+            {
+              label: "모션제어기",
+              to: "/docs/arc/intro",
             },
           ],
         },
         {
-          title: "Community",
+          title: "커뮤니티",
           items: [
             {
               label: "YouTube",
@@ -172,18 +184,22 @@ const config: Config = {
               label: "Instagram",
               href: "https://www.instagram.com/aidinrobotics",
             },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
             {
               label: "GitHub",
               href: "https://github.com/aidinrobotics",
+            },
+          ],
+        },
+        {
+          title: "문의",
+          items: [
+            {
+              label: "자주 묻는 질문",
+              href: "https://www.aidinrobotics.co.kr/faq",
+            },
+            {
+              label: "문의하기",
+              href: "https://www.aidinrobotics.co.kr/contact",
             },
           ],
         },
